@@ -1,0 +1,57 @@
+baseURL = 'https://tytolabs.com'
+locale = 'en-us'
+title = 'Alexander Cabanilla | Engineer'
+theme = 'PaperMod'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    url = '/'
+    weight = 10
+#  [[menus.main]]
+#    name = 'Projects'
+#    url = '/projects'
+#    weight = 20
+#  [[menus.main]]
+#    name = 'Gallery'
+#    url = '/gallery'
+#    weight = 30
+#  [[menus.main]]
+#    name = 'Notebooks'
+#    url = '/notebooks'
+#    weight = 40
+ [[menus.main]]
+    name = 'About'
+    url = '/about'
+    weight = 50
+
+[params.profileMode]
+  enabled = true
+  title = "Exploring tech and everyday moments."
+  subtitle = """
+  From audio innovations and DSP patents to scaling FinTech platforms.  Now enjoying a break with
+   my family in Copenhagen photographing life, traveling, reading, and tending to a digital garden.
+  """
+  imageUrl = "CabanillaPhoto-bw-sq.jpg"
+  imageWidth = 120
+  imageHeight = 120
+
+#  [[params.profileMode.buttons]]
+#   name = "Archive"
+#    url = "/archive"
+
+#  [[params.profileMode.buttons]]
+#    name = "Github"
+#    url = "https://github.com/"
+
+[[params.socialIcons]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/alexander-cabanilla/"
+
+[[params.socialIcons]]
+  name = "X"
+  url = "https://x.com/jacabanilla"
+
+[[params.socialIcons]]
+  name = "Instagram"
+  url = "https://www.instagram.com/jacabanilla/"
