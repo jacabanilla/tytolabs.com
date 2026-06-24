@@ -1,0 +1,6 @@
+# Ignore the build directories
+public/
+resources/
+
+# Ignore the build lock file
+.hugo_build.lock
