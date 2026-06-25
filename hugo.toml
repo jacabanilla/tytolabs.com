@@ -1,4 +1,4 @@
-baseURL = 'https://tytolabs.com'
+baseURL = 'https://tytolabs.com/'
 locale = 'en-us'
 title = 'Alexander Cabanilla | Engineer'
 theme = 'PaperMod'
