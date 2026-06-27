@@ -18,10 +18,10 @@ title = 'Alexander Cabanilla | Engineer'
 #    name = 'Projects'
 #    url = '/projects'
 #    weight = 20
-#  [[menus.main]]
-#    name = 'Gallery'
-#    url = '/gallery'
-#    weight = 30
+  [[menus.main]]
+    name = 'Gallery'
+    url = '/gallery'
+    weight = 30
 #  [[menus.main]]
 #    name = 'Notebooks'
 #    url = '/notebooks'
