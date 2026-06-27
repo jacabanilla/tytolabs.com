@@ -4,3 +4,6 @@ resources/
 
 # Ignore the build lock file
 .hugo_build.lock
+
+# Ignore the images directory
+content/gallery/images/
