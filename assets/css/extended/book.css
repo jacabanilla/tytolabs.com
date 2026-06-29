@@ -15,6 +15,15 @@ img.book_cover:hover {
     box-shadow: 0 12px 20px rgba(0,0,0,0.15);
 }
 
+.book_cover {
+    transition: all 0.2s ease;
+}
+
+a:hover .book_cover {
+    opacity: 0.9;
+    transform: translateY(-4px) scale(1.02);
+}
+
 /* Currently Reading Row */
 .currently-reading {
     display: flex !important;
