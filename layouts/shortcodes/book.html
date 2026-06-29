@@ -1,0 +1,39 @@
+{{/* layouts/shortcodes/book.html */}}
+{{ $isbn := .Get "isbn" | default (.Get 0) }}
+
+{{ if not $isbn }}
+  <p style="color: red;">Error: No ISBN provided.</p>
+  {{ return }}
+{{ end }}
+
+{{ $defaultCover := "https://books.google.com/books/content?id=DRlhnQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api" }}
+
+<!-- Goodreads Primary -->
+{{ $grBase := "https://www.goodreads.com/book/auto_complete?format=json&q=" }}
+{{ $grURL := printf "%s%s" $grBase $isbn }}
+
+{{ $grResp := resources.GetRemote $grURL (dict "timeout" "30s") }}
+{{ if $grResp }}
+  {{ $grJ := $grResp | transform.Unmarshal }}
+  {{ if and $grJ (gt (len $grJ) 0) }}
+    {{ $i := index $grJ 0 }}
+    {{ $img := replaceRE `._.*_.` "." $i.imageUrl }}
+    <img src="{{ $img }}" class="book_cover" alt="{{ $i.title | default $isbn }}" loading="lazy">
+  {{ else }}
+    <!-- Open Library Fallback -->
+    {{ $olCover := printf "https://covers.openlibrary.org/b/isbn/%s-L.jpg" $isbn }}
+    <img src="{{ $olCover }}" 
+         class="book_cover" 
+         alt="{{ $isbn }} cover" 
+         loading="lazy"
+         onerror="this.onerror=null; this.src='{{ $defaultCover }}';">
+  {{ end }}
+{{ else }}
+  <!-- Open Library Fallback - No Goodreads response -->
+  {{ $olCover := printf "https://covers.openlibrary.org/b/isbn/%s-L.jpg" $isbn }}
+  <img src="{{ $olCover }}" 
+       class="book_cover" 
+       alt="{{ $isbn }} cover" 
+       loading="lazy"
+       onerror="this.onerror=null; this.src='{{ $defaultCover }}';">
+{{ end }}

@@ -22,23 +22,22 @@ title = 'Alexander Cabanilla | Engineer'
     name = 'Gallery'
     url = '/gallery'
     weight = 30
-#  [[menus.main]]
-#    name = 'Notebooks'
-#    url = '/notebooks'
-#    weight = 40
+  [[menus.main]]
+    name = 'Library'
+    url = '/library'
+    weight = 40
  [[menus.main]]
     name = 'About'
     url = '/about'
     weight = 50
 
 [params]
+  css = [ "css/extended/book.css" ]
+
   [params.profileMode]
     enabled = true
-    title = "Exploring tech and everyday moments."
-    subtitle = """
-    From audio innovations and DSP patents to scaling FinTech platforms.  Now enjoying a break with
-     my family in Copenhagen photographing life, traveling, reading, and tending to a digital garden.
-    """
+    title = """Exploring tech and everyday moments."""
+    subtitle = """From audio innovations and DSP patents to scaling FinTech platforms.  Now enjoying a break with my family in Copenhagen photographing life, traveling, reading, and tending to a digital garden."""
     imageUrl = "CabanillaPhoto-bw-sq.jpg"
     imageWidth = 120
     imageHeight = 120
@@ -62,3 +61,5 @@ title = 'Alexander Cabanilla | Engineer'
   [[params.socialIcons]]
     name = "Instagram"
     url = "https://www.instagram.com/jacabanilla/"
+
+ignoreErrors = ["error-remote-getjson"]

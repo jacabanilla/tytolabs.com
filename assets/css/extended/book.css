@@ -1,0 +1,48 @@
+/* assets/css/extended/book.css */
+
+img.book_cover {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+    display: block;
+    margin: 0 auto 0.5rem;
+}
+
+img.book_cover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+/* Currently Reading Row */
+.currently-reading {
+    display: flex !important;
+    gap: 1.5rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 1rem 0 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.currently-reading img.book_cover {
+    max-width: 140px;
+    flex-shrink: 0;
+}
+
+/* Main Grid */
+.book-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 2rem 1.5rem;
+}
+
+.book-grid img.book_cover {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .book-grid {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+}
