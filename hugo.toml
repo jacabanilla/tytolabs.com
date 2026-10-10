@@ -37,7 +37,7 @@ title = 'Alexander Cabanilla | Engineer'
   [params.profileMode]
     enabled = true
     title = """Exploring tech and everyday moments."""
-    subtitle = """From audio innovations and DSP patents to scaling FinTech platforms.  Now enjoying a break with my family in Copenhagen photographing life, traveling, reading, and tending to a digital garden."""
+    subtitle = """From startup patents to enterprise products. After a two-year chapter in Copenhagen, I’ve returned to the DC area. I’m integrating back into the US with fresh perspectives, reconnecting with friends, photographing life, and tending this digital garden."""
     imageUrl = "CabanillaPhoto-bw-sq.jpg"
     imageWidth = 120
     imageHeight = 120

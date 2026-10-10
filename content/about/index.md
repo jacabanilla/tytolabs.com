@@ -12,14 +12,14 @@ Later, at Capital One, I progressed from an indiviual contributor (IC) to Senior
 
 **Right Now**
 
-In 2024, our family relocated to Copenhagen where I have enjoyed a career break. This chapter has been about recharging, building cross-cultural perspective, achieving Danish A2 proficiency, supporting the international school community, and pursuing personal interests. We are planning to return to the Washington, DC area in summer 2026. I am open to local or remote engineering leadership opportunities.
+In 2024 our family relocated to Copenhagen, where I took a career break to recharge, build cross-cultural perspective, reach Danish A2 proficiency, and pursue personal interests. After two years, we have returned to the Washington, DC area. This chapter is about integrating back into the US, reconnecting with friends and colleagues, and finding a role that fits my vision and values.
 
 **Beyond Work**
 
-When I’m not thinking about systems and software, you’ll likely find me on a bike with a camera in hand exploring Copenhagen’s streets, experimenting in the kitchen, or lost in a historical fiction book. I believe the principles that make great product experience such as clarity, simplicity, and human connection, equally apply just as well to life.
+When I’m not thinking about systems and software, you’ll likely find me with a camera in hand, often capturing everyday scenes with an [Accidentally Wes Anderson](https://accidentallywesanderson.com/user-profile/jacabanilla/) sensibility, experimenting in the kitchen, or lost in a historical fiction book. I believe the principles that make great product experiences, such as clarity, simplicity, and human connection, apply just as well to life.
 
 **Why Tyto Labs?**
 
-The name _Tyto Labs_ comes from my children’s fascination with owls when they were younger. We spend a lot of time on Maryland’s Eastern Shore where the owls are more commonly found in the marshes and open fields. Owls have symbolized wisdom, keen observation, and insight from the days of antiquity as well as the symbol of Athena, the Greek goddess of wisdom and craftsmanship. Tyto Labs represents that same spirit of quiet curiosity and clarity as my personal space to explore technology, life’s interesting moments, and the connections between them.
+The name _Tyto Labs_ comes from my children’s fascination with owls when they were younger. We spend a lot of time on Maryland’s Eastern Shore, where these birds are commonly found in the marshes and open fields. Owls have long symbolized wisdom and keen observation. They are also well knows as the emblem of Athena, the Greek goddess of wisdom and craftsmanship. Tyto Labs is my personal space to explore technology, life’s interesting moments, and the connections between them with that same quiet curiosity and clarity.
 
 View my full [resumé](../AlexanderCabanillaResume.pdf), connect with me on [LinkedIn](https://www.linkedin.com/in/alexander-cabanilla/), or by [email](mailto:jacabanilla@tytolabs.com)

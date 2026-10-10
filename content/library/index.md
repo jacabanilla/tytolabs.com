@@ -4,13 +4,15 @@ title = ""
 
 ### Currently reading
 {{< currently-reading >}}
-  {{< book isbn="978-1588361004" >}}
-  {{< book isbn="978-1982181307" >}}
-  {{< book isbn="978-8727221151" >}}
+  {{< book isbn="978-0593234297" >}}
+  {{< book isbn="978-1439182710" >}}
+  {{< book isbn="978-0593727072" >}}
 {{< /currently-reading >}}
 
 ### A few books that I have enjoyed reading.
 {{< book-grid >}}
+  {{< book isbn="978-1982181307" >}}
+  {{< book isbn="978-8727221151" >}}
   {{< book isbn="978-0375759994" >}}
   {{< book isbn="978-1662526954" >}}
   {{< book isbn="978-1491973899" >}}  
